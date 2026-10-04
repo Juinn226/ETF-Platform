@@ -2,7 +2,7 @@
 
 An ETF (Exchange-Traded Fund) information display platform that aggregates ETF prices, holdings, and performance metrics into a clean dashboard.
 
-[![Update README](https://github.com/Juinn226/ETF-Platform/actions/workflows/update-readme.yml/badge.svg)](https://github.com/Juinn226/ETF-Platform/actions/workflows/update-readme.yml) [![Validate Markers](https://github.com/Juinn226/ETF-Platform/actions/workflows/validate-markers.yml/badge.svg)](https://github.com/Juinn226/ETF-Platform/actions/workflows/validate-markers.yml)
+[![Update README](https://github.com/Juinn226/ETF-Platform/actions/workflows/update-readme.yml/badge.svg)](https://github.com/Juinn226/ETF-Platform/actions/workflows/update-readme.yml) [![Validate Markers](https://github.com/Juinn226/ETF-Platform/actions/workflows/validate-markers.yml/badge.svg)](https://github.com/Juinn226/ETF-Platform/actions/workflows/validate-markers.yml) [![Preview README](https://github.com/Juinn226/ETF-Platform/actions/workflows/preview-readme.yml/badge.svg)](https://github.com/Juinn226/ETF-Platform/actions/workflows/preview-readme.yml)
 
 ## About
 
