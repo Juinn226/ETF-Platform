@@ -1,0 +1,31 @@
+name: Validate README Markers
+
+# Outstanding CI gate: fails the build if README markers are missing/out of order.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check required markers exist and are ordered
+        run: |
+          set -euo pipefail
+          start='<!-- RECENT_ACTIVITY:START -->'
+          end='<!-- RECENT_ACTIVITY:END -->'
+          grep -qF "$start" README.md || { echo "::error::Missing START marker"; exit 1; }
+          grep -qF "$end" README.md || { echo "::error::Missing END marker"; exit 1; }
+          s=$(grep -nF "$start" README.md | head -1 | cut -d: -f1)
+          e=$(grep -nF "$end" README.md | head -1 | cut -d: -f1)
+          if [ "$s" -ge "$e" ]; then echo "::error::START must come before END"; exit 1; fi
+          echo "Markers OK (START line $s, END line $e)"
