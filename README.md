@@ -17,13 +17,13 @@ Browse popular ETFs (VOO, QQQ, VTI, SPY) with key metrics including price, expen
 The section below is updated automatically by the update-readme.yml GitHub Actions workflow. Do not edit it manually.
 
 <!-- RECENT_ACTIVITY:START -->
-_Last updated: 2026-10-06 12:42 UTC_
+_Last updated: 2026-10-07 12:36 UTC_
 
+- [`57f074a`](https://github.com/Juinn226/ETF-Platform/commit/57f074a73c1892bc84b1a226448a870da7302079) chore: auto-update recent activity [skip ci] _(github-actions[bot], 2026-10-06)_
 - [`0317236`](https://github.com/Juinn226/ETF-Platform/commit/0317236df07251356a8b76e4f899678e08c91ccf) chore: auto-update recent activity [skip ci] _(github-actions[bot], 2026-10-05)_
 - [`ca11f26`](https://github.com/Juinn226/ETF-Platform/commit/ca11f26fbd5825d3b1eac70d093ae7049b3fc3bb) chore: auto-update recent activity [skip ci] _(github-actions[bot], 2026-10-04)_
 - [`1efd3e1`](https://github.com/Juinn226/ETF-Platform/commit/1efd3e1744c0f1428cbc9910a3de0f3bdd043a12) ci: add preview-readme workflow (PR activity preview + sticky comment) _(Juinn226, 2026-10-04)_
 - [`a9b39ab`](https://github.com/Juinn226/ETF-Platform/commit/a9b39ab44d62de35c15419706ddc46d0ab837e1e) ci: add validate-markers workflow (fails CI if README markers missing) _(Juinn226, 2026-10-04)_
-- [`6be9ead`](https://github.com/Juinn226/ETF-Platform/commit/6be9ead9082f04e37f11440eddfa10cbfd1c189e) ci: add update-readme workflow (activity feed, least-privilege, cron) _(Juinn226, 2026-10-04)_
 <!-- RECENT_ACTIVITY:END -->
 
 ## Tech Stack
